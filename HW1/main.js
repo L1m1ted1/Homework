@@ -29,7 +29,6 @@ console.log(n4);
 console.log(bool1);
 console.log(bool2);
 
-
 // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
 
 let firstName = 'Roman '
