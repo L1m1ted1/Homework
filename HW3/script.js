@@ -86,16 +86,20 @@ let users = [
 ];
 
 
- for (let user of users) {
-     if (user.status){
+for (let user of users) {
+    if (user.status){
+        console.log(user.name, user.age, user.status)
+    }
+}
+console.log('------------------')
+for (let user of users) {
+    if (!user.status){
          console.log(user.name, user.age, user.status)
-
      }
- }
+}
  console.log('------------------')
- for (let user of users) {
-     if (!user.status){
+for (const user of users) {
+     if (user.age > 30){
          console.log(user.name, user.age, user.status)
-
      }
- }
+}
